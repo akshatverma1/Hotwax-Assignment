@@ -1,0 +1,62 @@
+//First Form Table Code
+
+CREATE DATABASE firsts;
+USE firsts;
+CREATE TABLE firsttable(
+Order_id INT PRIMARY KEY,
+First_name VARCHAR(50),
+Last_name VARCHAR(50),
+Product_name VARCHAR(50),
+Productdesp_name VARCHAR(50),
+Productreturnable_name VARCHAR(50),
+Seller VARCHAR(50),
+Total INT NOT NULL,
+Dates INT NOT NULL,
+Order_status VARCHAR(50),
+City VARCHAR(50),
+State VARCHAR(50),
+Pincode INT NOT NULL
+);
+INSERT INTO firsttable values(01,"John","Doe","One Plus Nord","Red Mobile Phone","No","Seller_z",20000,15/08/2024,"Approved","Indore","MP",452001); 
+INSERT INTO firsttable values(02,"John","Doe","Air Jordan","Shoes","Yes","Nike",25000,16/08/2024,"Approved","Indore","MP",452001);
+INSERT INTO firsttable values(03,"Mary","Ann","One Plus Nord","Red Mobile Phone","No","Seller_z",20000,15/08/2024,"Approved","Pune","Maharashtra",4510014);
+select * FROM firsttable;
+
+//Second Form Table Code
+
+CREATE DATABASE seconds;
+USE seconds;
+Create table usertable(
+First_name VARCHAR(50) PRIMARY KEY,
+Last_name VARCHAR(50),
+Pin_code INT NOT NULL,
+City VARCHAR(50),
+State VARCHAR(50)
+);
+INSERT INTO usertable VALUES("John","Does",452001,"Indore","MP");
+INSERT INTO usertable VALUES("Mary","Ann",410014,"Pune","Maharashtra");
+SELECT * FROM usertable;
+
+
+//Third Form Table Code
+
+CREATE DATABASE third;
+USE third;
+Create table usertables(
+User_id VARCHAR(50) PRIMARY KEY,
+First_Name VARCHAR(50),
+LastName VARCHAR(50),
+Pin_code INT
+);
+INSERT INTO usertables VALUES("U1",null,null,452001);
+INSERT INTO usertables VALUES("U2",null,null,452014);
+SELECT * FROM usertables;
+create table address_table(
+Pin_code INT PRIMARY KEY,
+City VARCHAR(50),
+State VARCHAR(50)
+);
+INSERT INTO address_table values(452001,"Indore","MP");
+INSERT INTO address_table values(452014,"Pune","Maharashtra");
+select * FROM address_table;
+
