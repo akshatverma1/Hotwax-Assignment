@@ -1,0 +1,4 @@
+Order_id,First_name,Last_name,Product_name,Productdesp_name,Productreturnable_name,Seller,Total,Dates,Order_status,City,State,Pincode
+1,John,Doe,"One Plus Nord","Red Mobile Phone",No,Seller_z,20000,0,Approved,Indore,MP,452001
+2,John,Doe,"Air Jordan",Shoes,Yes,Nike,25000,0,Approved,Indore,MP,452001
+3,Mary,Ann,"One Plus Nord","Red Mobile Phone",No,Seller_z,20000,0,Approved,Pune,Maharashtra,4510014
